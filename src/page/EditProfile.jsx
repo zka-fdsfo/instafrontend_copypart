@@ -50,7 +50,7 @@ const EditProfile = () => {
       try {
         const res =
           await axios.get(
-            "https://instabackend-copypart.vercel.app/api/auth/me",
+            "https://instabackend-copypart.onrender.com/api/auth/me",
             {
               withCredentials: true,
             }
@@ -148,7 +148,7 @@ const EditProfile = () => {
 
         const res =
           await axios.put(
-            "https://instabackend-copypart.vercel.app/api/auth/update-profile",
+            "https://instabackend-copypart.onrender.com/api/auth/update-profile",
             formData,
             {
               withCredentials: true,

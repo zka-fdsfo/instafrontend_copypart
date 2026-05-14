@@ -84,7 +84,7 @@ export default function ChatPage() {
   useEffect(() => {
     const getMe = async () => {
       try {
-        const res = await axios.get("https://instabackend-copypart.vercel.app/api/auth/user", {
+        const res = await axios.get("https://instabackend-copypart.onrender.com/api/auth/user", {
           withCredentials: true,
         });
 
@@ -191,7 +191,7 @@ export default function ChatPage() {
     const fetchUsers = async () => {
       try {
         const res = await axios.get(
-          "https://instabackend-copypart.vercel.app/api/post/getallfollowering",
+          "https://instabackend-copypart.onrender.com/api/post/getallfollowering",
           {
             withCredentials: true,
           },
@@ -214,7 +214,7 @@ export default function ChatPage() {
   const checkStatus = async (receiverId) => {
     try {
       const res = await axios.get(
-        `https://instabackend-copypart.vercel.app/api/chat/status/${receiverId}`,
+        `https://instabackend-copypart.onrender.com/api/chat/status/${receiverId}`,
         {
           withCredentials: true,
         },
@@ -243,7 +243,7 @@ export default function ChatPage() {
   const sendRequest = async (receiverId) => {
     try {
       await axios.post(
-        "https://instabackend-copypart.vercel.app/api/chat/chat-request",
+        "https://instabackend-copypart.onrender.com/api/chat/chat-request",
         { receiverId },
         {
           withCredentials: true,
@@ -265,7 +265,7 @@ export default function ChatPage() {
   const loadMessages = async (receiverId) => {
     try {
       const res = await axios.get(
-        `https://instabackend-copypart.vercel.app/api/chat/messages/${receiverId}`,
+        `https://instabackend-copypart.onrender.com/api/chat/messages/${receiverId}`,
         {
           withCredentials: true,
         },
@@ -294,7 +294,7 @@ export default function ChatPage() {
 
     try {
       const res = await axios.post(
-        "https://instabackend-copypart.vercel.app/api/chat/send",
+        "https://instabackend-copypart.onrender.com/api/chat/send",
         {
           receiverId: selectedUser.following._id,
 

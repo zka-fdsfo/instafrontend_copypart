@@ -18,7 +18,7 @@ const FeedPage = () => {
     useAuth();
 
   const API_BASE =
-    "https://instabackend-copypart.vercel.app";
+    "https://instabackend-copypart.onrender.com";
 
   useEffect(() => {
     const fetchPosts =

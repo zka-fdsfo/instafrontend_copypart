@@ -12,7 +12,7 @@ const ProfileCard = ({ user }) => {
 
   const userId = user.email;
 
-  const API_BASE = "https://instabackend-copypart.vercel.app";
+  const API_BASE = "https://instabackend-copypart.onrender.com";
   // console.log("pro;;",user)
   // 📦 Fetch follow data
   useEffect(() => {

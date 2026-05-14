@@ -20,7 +20,7 @@
 //   const [actionLoading, setActionLoading] = useState(false);
 
 //   const navigate = useNavigate();
-//   const API_BASE = "https://instabackend-copypart.vercel.app";
+//   const API_BASE = "https://instabackend-copypart.onrender.com";
 
 //   // =========================
 //   // Fetch current logged-in user
@@ -240,7 +240,7 @@ const UserProfilePage = () => {
   // ✅ Query Client
   const queryClient = useQueryClient();
 
-  const API_BASE = "https://instabackend-copypart.vercel.app";
+  const API_BASE = "https://instabackend-copypart.onrender.com";
 
   // =========================
   // Fetch Profile User

@@ -24,7 +24,7 @@ const EditPostPage = () => {
     useState(false);
 
   const API_BASE =
-    "https://instabackend-copypart.vercel.app";
+    "https://instabackend-copypart.onrender.com";
 
   // ❌ No Post
   if (!post) {

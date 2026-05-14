@@ -22,7 +22,7 @@ const SinglePostPage = () => {
   const [commentText, setCommentText] = useState("");
   const [commentLoading, setCommentLoading] = useState(false);
 
-  const API_BASE = "https://instabackend-copypart.vercel.app";
+  const API_BASE = "https://instabackend-copypart.onrender.com";
 
   // 📦 Fetch Post
   useEffect(() => {

@@ -18,7 +18,7 @@ const SearchBar = ({
   const navigate = useNavigate();
   const  {currentUser } = useAuth(); //eddited by farhan
 
-  const API_BASE = "https://instabackend-copypart.vercel.app";
+  const API_BASE = "https://instabackend-copypart.onrender.com";
 
   useEffect(() => {
     const delayDebounce = setTimeout(() => {

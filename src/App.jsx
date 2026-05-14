@@ -27,7 +27,7 @@ function ProtectedRoute({ children }) {
   useEffect(() => {
     const verify = async () => {
       try {
-        await axios.get("https://instabackend-copypart.vercel.app/api/auth/user", {
+        await axios.get("https://instabackend-copypart.onrender.com/api/auth/user", {
           withCredentials: true,
         });
 

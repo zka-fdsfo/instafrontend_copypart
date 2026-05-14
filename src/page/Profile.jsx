@@ -34,7 +34,7 @@ const Profile = () => {
     async function getUser() {
       try {
         const res = await axios.get(
-          "https://instabackend-copypart.vercel.app/api/auth/user",
+          "https://instabackend-copypart.onrender.com/api/auth/user",
           { withCredentials: true }
         );
 
@@ -70,7 +70,7 @@ const Profile = () => {
       try {
 
         const res = await axios.get(
-          "https://instabackend-copypart.vercel.app/api/chat/notifications",
+          "https://instabackend-copypart.onrender.com/api/chat/notifications",
           { withCredentials: true }
         );
 
@@ -148,7 +148,7 @@ const Profile = () => {
   const handleLogout = async () => {
     try {
       await axios.post(
-        "https://instabackend-copypart.vercel.app/api/auth/logout",
+        "https://instabackend-copypart.onrender.com/api/auth/logout",
         {},
         { withCredentials: true }
       );
@@ -171,7 +171,7 @@ const Profile = () => {
     try {
 
       await axios.post(
-        "https://instabackend-copypart.vercel.app/api/chat/accept-request",
+        "https://instabackend-copypart.onrender.com/api/chat/accept-request",
         { requestId },
         { withCredentials: true }
       );

@@ -11,7 +11,7 @@ import {
   FiSearch,
 } from "react-icons/fi";
 
-const API_BASE = "https://instabackend-copypart.vercel.app";
+const API_BASE = "https://instabackend-copypart.onrender.com";
 
 const FollowPage = () => {
   const location = useLocation();

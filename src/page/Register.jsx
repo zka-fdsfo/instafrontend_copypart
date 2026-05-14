@@ -50,7 +50,7 @@ export default function Register() {
       }
 
       const res = await axios.post(
-        "https://instabackend-copypart.vercel.app/api/auth/register",
+        "https://instabackend-copypart.onrender.com/api/auth/register",
         formData,
         {
           withCredentials: true,
@@ -92,6 +92,7 @@ export default function Register() {
             opacity: 0;
             transform: translateY(20px);
           }
+
           to {
             opacity: 1;
             transform: translateY(0);
@@ -101,6 +102,7 @@ export default function Register() {
         .animate-fade-up {
           animation: fadeInUp 0.5s ease-out forwards;
         }
+
       `}</style>
 
       <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-purple-50 flex items-center justify-center p-4">
@@ -127,6 +129,7 @@ export default function Register() {
                   preview ||
                   "https://cdn-icons-png.flaticon.com/512/149/149071.png"
                 }
+
                 alt="avatar"
                 className="w-24 h-24 rounded-full object-cover border-4 border-indigo-100 shadow"
               />
@@ -155,6 +158,7 @@ export default function Register() {
               onClick={() =>
                 handleSocialSignup("Google")
               }
+
               className="flex-1 flex items-center justify-center gap-2 border border-gray-300 rounded-xl py-2.5 hover:bg-gray-50 transition"
             >
               <svg
@@ -187,6 +191,7 @@ export default function Register() {
               onClick={() =>
                 handleSocialSignup("GitHub")
               }
+
               className="flex-1 flex items-center justify-center gap-2 border border-gray-300 rounded-xl py-2.5 hover:bg-gray-50 transition"
             >
               <svg
@@ -232,6 +237,7 @@ export default function Register() {
                       e.target.value
                     )
                   }
+
                   required
                   className="w-full px-4 py-2.5 rounded-xl border border-gray-200 bg-gray-50 focus:bg-white focus:ring-2 focus:ring-indigo-500 transition"
                   placeholder="eg. John"
@@ -251,6 +257,7 @@ export default function Register() {
                       e.target.value
                     )
                   }
+
                   required
                   className="w-full px-4 py-2.5 rounded-xl border border-gray-200 bg-gray-50 focus:bg-white focus:ring-2 focus:ring-indigo-500 transition"
                   placeholder="eg. Francisco"
@@ -269,6 +276,7 @@ export default function Register() {
                 onChange={(e) =>
                   setEmail(e.target.value)
                 }
+
                 required
                 className="w-full px-4 py-2.5 rounded-xl border border-gray-200 bg-gray-50 focus:bg-white focus:ring-2 focus:ring-indigo-500 transition"
                 placeholder="your@email.com"
@@ -288,6 +296,7 @@ export default function Register() {
                     e.target.value
                   )
                 }
+
                 required
                 className="w-full px-4 py-2.5 rounded-xl border border-gray-200 bg-gray-50 focus:bg-white focus:ring-2 focus:ring-indigo-500 transition"
                 placeholder="Enter your password"

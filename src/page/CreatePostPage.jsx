@@ -17,7 +17,7 @@ const CreatePostPage = () => {
 
   const navigate = useNavigate();
 
-  const API_BASE = "https://instabackend-copypart.vercel.app";
+  const API_BASE = "https://instabackend-copypart.onrender.com";
 
   // 🖼️ Handle Image Change
   const handleImageChange = (e) => {
