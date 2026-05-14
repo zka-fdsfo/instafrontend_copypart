@@ -22,10 +22,10 @@ const PostCard = ({ post, currentUser }) => {
 
   // 🌐 API
   const API_URL =
-    "http://192.168.99.196:3000/api/post";
+    "https://instabackend-copypart.vercel.app/api/post";
 
   const USER_API =
-    "http://192.168.99.196:3000/api/auth";
+    "https://instabackend-copypart.vercel.app/api/auth";
 
   // 📅 Format Date
   const formatDate = (

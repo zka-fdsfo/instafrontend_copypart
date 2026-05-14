@@ -20,7 +20,7 @@
 //   const [actionLoading, setActionLoading] = useState(false);
 
 //   const navigate = useNavigate();
-//   const API_BASE = "http://192.168.99.196:3000";
+//   const API_BASE = "https://instabackend-copypart.vercel.app";
 
 //   // =========================
 //   // Fetch current logged-in user
@@ -240,7 +240,7 @@ const UserProfilePage = () => {
   // ✅ Query Client
   const queryClient = useQueryClient();
 
-  const API_BASE = "http://192.168.99.196:3000";
+  const API_BASE = "https://instabackend-copypart.vercel.app";
 
   // =========================
   // Fetch Profile User

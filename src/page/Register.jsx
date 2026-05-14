@@ -50,7 +50,7 @@ export default function Register() {
       }
 
       const res = await axios.post(
-        "http://192.168.99.196:3000/api/auth/register",
+        "https://instabackend-copypart.vercel.app/api/auth/register",
         formData,
         {
           withCredentials: true,

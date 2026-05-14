@@ -17,7 +17,7 @@ const CreatePostPage = () => {
 
   const navigate = useNavigate();
 
-  const API_BASE = "http://192.168.99.196:3000";
+  const API_BASE = "https://instabackend-copypart.vercel.app";
 
   // 🖼️ Handle Image Change
   const handleImageChange = (e) => {

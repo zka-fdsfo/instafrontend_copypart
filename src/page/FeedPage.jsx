@@ -18,7 +18,7 @@ const FeedPage = () => {
     useAuth();
 
   const API_BASE =
-    "http://192.168.99.196:3000";
+    "https://instabackend-copypart.vercel.app";
 
   useEffect(() => {
     const fetchPosts =

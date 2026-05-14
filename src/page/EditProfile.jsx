@@ -50,7 +50,7 @@ const EditProfile = () => {
       try {
         const res =
           await axios.get(
-            "http://192.168.99.196:3000/api/auth/me",
+            "https://instabackend-copypart.vercel.app/api/auth/me",
             {
               withCredentials: true,
             }
@@ -148,7 +148,7 @@ const EditProfile = () => {
 
         const res =
           await axios.put(
-            "http://192.168.99.196:3000/api/auth/update-profile",
+            "https://instabackend-copypart.vercel.app/api/auth/update-profile",
             formData,
             {
               withCredentials: true,

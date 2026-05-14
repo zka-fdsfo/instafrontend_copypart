@@ -27,7 +27,7 @@ function ProtectedRoute({ children }) {
   useEffect(() => {
     const verify = async () => {
       try {
-        await axios.get("http://192.168.99.196:3000/api/auth/user", {
+        await axios.get("https://instabackend-copypart.vercel.app/api/auth/user", {
           withCredentials: true,
         });
 
